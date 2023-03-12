@@ -55,7 +55,7 @@
     <EditText
         android:id="@+id/txtColorRed"
         android:layout_width="67dp"
-        android:layout_height="38dp"
+        android:layout_height="80dp"
         android:layout_marginStart="80dp"
         android:layout_marginTop="92dp"
         android:ems="10"
@@ -67,7 +67,7 @@
     <EditText
         android:id="@+id/txtColorBlue"
         android:layout_width="67dp"
-        android:layout_height="38dp"
+        android:layout_height="80dp"
         android:layout_marginTop="92dp"
         android:layout_marginEnd="80dp"
         android:ems="10"
@@ -79,7 +79,7 @@
     <EditText
         android:id="@+id/txtColorGreen"
         android:layout_width="67dp"
-        android:layout_height="38dp"
+        android:layout_height="80dp"
         android:layout_marginTop="140dp"
         android:ems="10"
         android:inputType="textPersonName"
