@@ -2,20 +2,17 @@ package com.example.bluetooth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
+//import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
-    lateinit var blue:BluJhr
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        blue = BluJhr(this)
-        blue.onBluetooth()
     }
 
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+}
+/*    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         if (blue.checkPermissions(requestCode,grantResults)){
             Toast.makeText(this, "Exit", Toast.LENGTH_SHORT).show()
             blue.initializeBluetooth()
@@ -29,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
     }
 }
-
 fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
     if (!blue.stateBluetoooth() && requestCode == 100){
         blue.initializeBluetooth()
@@ -46,4 +42,4 @@ fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         }
     }
     super.onActivityResult(requestCode, resultCode, data)
-}
+}*/
