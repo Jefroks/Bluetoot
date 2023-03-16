@@ -20,28 +20,6 @@
         app:layout_constraintVertical_bias="0.468" />
 
     <TextView
-        android:id="@+id/labelBlue"
-        android:layout_width="56dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="84dp"
-        android:text="Blue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtColorBlue" />
-
-    <TextView
-        android:id="@+id/labelGreen"
-        android:layout_width="56dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="4dp"
-        android:text="Green"
-        app:layout_constraintEnd_toStartOf="@+id/labelBlue"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/labelRed"
-        app:layout_constraintTop_toBottomOf="@+id/txtColorGreen" />
-
-    <TextView
         android:id="@+id/labelTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -53,47 +31,70 @@
         app:layout_constraintVertical_bias="0.039" />
 
     <EditText
-        android:id="@+id/txtColorRed"
-        android:layout_width="67dp"
+        android:id="@+id/txtColorGreen"
+        android:layout_width="82dp"
         android:layout_height="80dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="112dp"
         android:ems="10"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/labelTitle"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/labelGreen"
+        android:layout_width="56dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="8dp"
+        android:text="Green"
+        app:layout_constraintEnd_toStartOf="@+id/labelBlue"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labelRed"
+        app:layout_constraintTop_toBottomOf="@+id/txtColorGreen" />
 
     <EditText
         android:id="@+id/txtColorBlue"
         android:layout_width="67dp"
         android:layout_height="80dp"
-        android:layout_marginTop="92dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="72dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/labelTitle"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
+    <TextView
+        android:id="@+id/labelBlue"
+        android:layout_width="56dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="76dp"
+        android:text="Blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtColorBlue" />
+
     <EditText
-        android:id="@+id/txtColorGreen"
+        android:id="@+id/txtColorRed"
         android:layout_width="67dp"
         android:layout_height="80dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="64dp"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelTitle"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/labelRed"
         android:layout_width="56dp"
         android:layout_height="21dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="8dp"
         android:text="Red"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtColorRed" />

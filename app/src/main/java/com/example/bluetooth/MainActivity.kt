@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             if(Build.VERSION.SDK_INT < Build.VERSION_CODES.S){
                 blue.initializeBluetooth()
             }else{
-                Toast.makeText(this, "Algo salio mal", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Algo salió mal", Toast.LENGTH_SHORT).show()
             }
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
